@@ -1,8 +1,8 @@
 .store-banner-head, .store-banner-text {
-  color: rgb(10, 5, 5);
+  color: rgb(60, 80, 76);
   font-family: 'Quicksand', sans-serif;
   text-shadow: 1px 1px 4px rgba(245, 250, 255, .9);
-  font-weight: 800px;
+  font-weight: 700;
 }
 
 .store-banner {
