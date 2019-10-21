@@ -1,8 +1,31 @@
+/* universal styling */
+
 .container {
   width: 967px;
   margin-left: auto;
   margin-right: auto;
 }
+
+.img-float-left {
+  float: left;
+}
+
+.img-float-right {
+  float: right;
+}
+
+.header {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3.2em;
+  font-weight: 800;
+}
+
+.story-para {
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 2rem;
+}
+
+/* navbar styles */
 
 .logo-group {
   display: flex;
@@ -25,48 +48,6 @@
   font-size: 1.6rem;
   margin-left: 1rem;
 }
-
-.hero {
-  
-  overflow: hidden;
-  height: 38rem;
-  width: 100%;
-  box-shadow: 1px 1px 6px rgba(10, 5, 5, .6);
-}
-
-.hero-store {
-  
-  overflow: hidden;
-  height: 30rem;
-  width: 100%;
-  box-shadow: 1px 1px 6px rgba(10, 5, 5, .6);
-}
-
-.hero-img {
-  background: linear-gradient(to bottom, rgba(153,147,146,0.53) 0%,rgba(214,202,201,0.48) 50%,rgba(239,211,210,0.42) 100%), url('../media/sea-salt-in-white-bowls.jpg');
-}
-
-.hero-img-store {
-  background: linear-gradient(to bottom, rgba(216,207,205,0.26) 0%,rgba(216,207,205,0.3) 50%,rgba(216,207,205,0.34) 100%), url('../media/sea-salt-reserve-resort.jpg');
-}
-
-.hero-img-about {
-  background: linear-gradient(to bottom, rgba(216,207,205,0.26) 0%,rgba(216,207,205,0.3) 50%,rgba(216,207,205,0.34) 100%), url('../media/beach-salt-water-sand-17727.jpg');
-}
-
-
-.banner-img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-
-
-
 
 .navbar {
   width: 100%;
@@ -103,6 +84,73 @@
   text-shadow: 1px 1px 5px rgba(10, 5, 5, .8);
 }
 
+
+/* hero styles */
+
+.hero {
+  
+  overflow: hidden;
+  height: 38rem;
+  width: 100%;
+  box-shadow: 1px 1px 6px rgba(10, 5, 5, .6);
+}
+
+.hero-store {
+  
+  overflow: hidden;
+  height: 30rem;
+  width: 100%;
+  box-shadow: 1px 1px 6px rgba(10, 5, 5, .6);
+}
+
+.hero-img {
+  background: linear-gradient(to bottom, rgba(153,147,146,0.53) 0%,rgba(214,202,201,0.48) 50%,rgba(239,211,210,0.42) 100%), url('../media/sea-salt-in-white-bowls.jpg');
+}
+
+.hero-img-store {
+  background: linear-gradient(to bottom, rgba(216,207,205,0.26) 0%,rgba(216,207,205,0.3) 50%,rgba(216,207,205,0.34) 100%), url('../media/sea-salt-reserve-resort.jpg');
+}
+
+.hero-img-about {
+  background: linear-gradient(to bottom, rgba(216,207,205,0.26) 0%,rgba(216,207,205,0.3) 50%,rgba(216,207,205,0.34) 100%), url('../media/beach-salt-water-sand-17727.jpg');
+}
+
+/* home page styles */
+.home-img {
+  height: 800px;
+  width: 500px;
+  background-image: url('../media/aromatherapy-ayurveda-b-3188.jpg');
+  background-size: cover;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.home-splash {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.home-head {
+  margin-bottom: 2rem;
+  color: rgb(40, 60, 48);
+}
+
+.home-story {
+  font-size: 1.6em;
+  font-weight: 800;
+  line-height: 2rem;
+  color: rgb(80, 100, 86);
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .store-button {
   height: 2rem;
   width: 160px;
@@ -129,10 +177,9 @@
   font-size: 1.8rem;
 }
 
+/* about styling */
+
 .about-header-main {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 3.2em;
-  font-weight: 800;
   color: rgb(250, 245, 240);
   text-shadow: 1px 1px 3px rgb(26, 10, 18);
   margin-top: 24rem;
@@ -147,11 +194,9 @@
 }
 
 .about-story {
-  font-family: 'Quicksand', sans-serif;
   font-size: 1.8em;
   font-weight: 800;
   color: rgb(80, 100, 86);
-  margin-top: 2rem;
 }
 
 .about-container {
@@ -166,8 +211,4 @@
   background-size: cover;
   overflow: hidden;
   margin: 1rem;
-}
-
-.img-float-left {
-  float: left;
 }
